@@ -7,4 +7,3 @@ class MainPageLocators:
         By.XPATH, "//a[@href='client-registration.html' and text()='register a client and a user']")
     CLIENT_AND_USER_REGISTRATION_ALREADY_REGISTERED = (
         By.XPATH, "//a[@href='client-registration.html' and text()='client and user registration']")
-

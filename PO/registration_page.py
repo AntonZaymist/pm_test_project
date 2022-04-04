@@ -37,8 +37,3 @@ class RegisterPage(BasePage):
         close_button.click()
         back_to_flows = self.find_element(RegistrationPageLocators.BACK_TO_FLOWS_BUTTON)
         back_to_flows.click()
-
-
-
-
-

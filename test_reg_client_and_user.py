@@ -26,8 +26,3 @@ def test_registration_and_reset_client_and_user(chrome_driver):
     registration_page_already_registered.check_registration_form()
     registration_page_already_registered.reset_reg()
     assert registration_page_already_registered.get_title() == TITLE
-
-
-
-
-

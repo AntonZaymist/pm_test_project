@@ -12,4 +12,3 @@ class RegistrationPageLocators:
     USER_LOGIN_REGISTRATION_FORM = (By.XPATH, "//*[@class='user-login']")
     USER_PASSWORD_REGISTRATION_FORM = (By.XPATH, "//*[@class='user-password']")
     CLOSE_BUTTON_REGISTRATION_FORM = (By.XPATH, "//*[@class='close button']")
-
